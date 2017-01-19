@@ -1,4 +1,4 @@
-IMPORT STD;
+﻿IMPORT STD;
 
 EXPORT Finance := MODULE, FORWARD
 
@@ -29,6 +29,7 @@ EXPORT Finance := MODULE, FORWARD
                                 Raw     := LoanAmt * Prate * (POW / (POW-1));
                                 RETURN ROUND(Raw,2);
                 END;
+
 
 /**
 * Returns an amortization table.
