@@ -1,0 +1,1 @@
+﻿EXPORT fn_Right4(STRING s) := TRIM( s)[LENGTH(TRIM( s))-3..];
